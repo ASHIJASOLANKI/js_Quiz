@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./quiz.css">
+    
+</head>
+<body>
+    <div class="container">
+
+        <div class="">
+            <div class="col-md-7 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                <h1 class="text-center">Quiz</h1>
+                <div id="quiz">
+                    <h2 id="question"></h2>
+                    
+                        <li>
+                            <input type="radio" class="answer" name="answer" id="a">
+                            <label for="a" id="a_value"></label>
+                        </li>
+                        <li>
+                            <input type="radio" class="answer" name="answer" id="b">
+                            <label for="b" id="b_value"></label>
+                        </li>
+                        <li>
+                            <input type="radio" class="answer" name="answer" id="c">
+                            <label for="c" id="c_value"></label>
+                        </li>
+                        <li>
+                            <input type="radio" class="answer" name="answer" id="d">
+                            <label for="d" id="d_value"></label>
+                        </li>
+                        
+                        <button type="button" id="submit" class="btn btn-primary">Submit</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="./quiz.js"></script>
+    </body>
+</html>
